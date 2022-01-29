@@ -7,7 +7,7 @@ public class PlayerMatch {
 	private Board board;
 
 	public PlayerMatch() {
-		board = new Board(16,16);
+		board = new Board(15,15);
 	}
 
 	public PlayerPiece[][] getPieces(){
